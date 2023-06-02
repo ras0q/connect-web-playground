@@ -4,8 +4,8 @@ import (
 	"context"
 
 	connect_go "github.com/bufbuild/connect-go"
-	"github.com/ras0q/connect-web-playground/bufgen/go/api/proto"
-	"github.com/ras0q/connect-web-playground/bufgen/go/api/proto/protoconnect"
+	"github.com/ras0q/connect-web-playground/pkg/bufgen/api/proto"
+	"github.com/ras0q/connect-web-playground/pkg/bufgen/api/proto/protoconnect"
 	"google.golang.org/protobuf/types/known/emptypb"
 )
 

@@ -8,7 +8,7 @@ import (
 	context "context"
 	errors "errors"
 	connect_go "github.com/bufbuild/connect-go"
-	proto "github.com/ras0q/connect-web-playground/bufgen/go/api/proto"
+	proto "github.com/ras0q/connect-web-playground/pkg/bufgen/api/proto"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
 	http "net/http"
 	strings "strings"

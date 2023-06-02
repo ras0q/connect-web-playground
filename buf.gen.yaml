@@ -2,11 +2,19 @@ version: v1
 managed:
   enabled: true
   go_package_prefix:
-    default: github.com/ras0q/connect-web-playground/bufgen/go
+    default: github.com/ras0q/connect-web-playground/pkg/bufgen
 plugins:
   - name: go
-    out: bufgen/go
+    path:
+      - go
+      - install
+      - google.golang.org/protobuf/cmd/protoc-gen-go@latest
+    out: pkg/bufgen
     opt: paths=source_relative
   - name: connect-go
-    out: bufgen/go
+    path:
+      - go
+      - install
+      - github.com/bufbuild/connect-go/cmd/protoc-gen-connect-go@latest
+    out: pkg/bufgen
     opt: paths=source_relative

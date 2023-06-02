@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/ras0q/connect-web-playground/bufgen/go/api/proto/protoconnect"
+	"github.com/ras0q/connect-web-playground/pkg/bufgen/api/proto/protoconnect"
 	"github.com/ras0q/connect-web-playground/internal/handler"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/h2c"
