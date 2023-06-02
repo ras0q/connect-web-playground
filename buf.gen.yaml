@@ -1,0 +1,12 @@
+version: v1
+managed:
+  enabled: true
+  go_package_prefix:
+    default: github.com/ras0q/connect-web-playground/bufgen/go
+plugins:
+  - name: go
+    out: bufgen/go
+    opt: paths=source_relative
+  - name: connect-go
+    out: bufgen/go
+    opt: paths=source_relative
